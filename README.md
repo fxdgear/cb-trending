@@ -11,13 +11,14 @@ Prerequisites: Your machine should already have Python 2.7.x (including [virtual
 		pip install -r requirements.txt
 		python app.py
 
-3. Also at the command line, populate the data store:
+3. Double-check Redis is running on your local machine.
+4. Also at the command line, populate the data store:
 	
 		python populate.py gizmodo.com avc.com someecards.com
 		
 	Run this command at least twice, 5-20 seconds apart. (The further apart, the more interesting the results. See the note below.)
 	
-4. Download and use an HTTP request simular like [Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en) to test the API (or enjoy the raw data in any Web browser): [http://127.0.0.1:5000/api/1/trending?host=gizmodo.com](http://127.0.0.1:5000/api/1/trending?host=gizmodo.com)
+5. Download and use an HTTP request simular like [Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en) to test the API (or enjoy the raw data in any Web browser): [http://127.0.0.1:5000/api/1/trending?host=gizmodo.com](http://127.0.0.1:5000/api/1/trending?host=gizmodo.com)
 
 # API
 
