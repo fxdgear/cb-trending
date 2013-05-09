@@ -16,3 +16,9 @@ xcuserdata
 # svn & cvs
 .svn
 CVS
+
+# text edits
+*.swp
+
+# virtual environment
+venv/*
